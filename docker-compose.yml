@@ -1,0 +1,9 @@
+services:
+  mj-tv-bot-dev:
+    image: postgres:16-alpine3.18
+    restart: always
+    environment:
+      POSTGRES_USER: mirodil
+      POSTGRES_PASSWORD: 1212
+    ports:
+      - 5433:5432
